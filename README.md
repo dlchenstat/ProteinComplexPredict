@@ -7,7 +7,7 @@ Execute file "ProteinComplexPredictFunctions.r" first and then use "ProteinCompl
 
 Input files are two IEX datasets, two SEC datasets, list of SEC cytosolic proteins, list of protein contaminents in IEX, (if proteins are already filtered, those two lists are not needed) Gaussian fitting results of four datasets, list of known protein complexes.
 
-# List of input files
+## List of input files
 The IEX input file
 - IEX_bio1_common_cytosol.csv
 - IEX_bio2_common_cytosol.csv
