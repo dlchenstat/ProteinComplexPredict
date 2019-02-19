@@ -149,4 +149,6 @@ colnames(clusterIDtablespfitSEC12) = paste("X", numclust, sep = "")
 rownames(clusterIDtablespfitSEC12) = rownames(spfitsec12)
 
 
-
+write.table(clusterIDtablespfitIEX, "clusterID_IEX+SEC.csv")
+write.table(clusterIDtablespfitIEX12, "clusterID_IEX.csv")
+write.table(clusterIDtablespfitSEC12, "clusterID_SEC.csv")
